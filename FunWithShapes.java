@@ -23,7 +23,13 @@ public class FunWithShapes {
         double area = calcArea(length,width);
         system.out.print("The area of the square with length " + length + " and " + width + " is " + area + ".\n");
         
+        double triBase = 5;
+        double triHeight = 5.4;
+        System.out.println(new AreaOfTriangle().getArea(triBase, triHeight));
         
+        double pybase = 5;
+        double pyheight = 8.9;
+        System.out.println(new VolumeOfPyramid(pybase, pyheight).getVolume());
     }
     
 }
