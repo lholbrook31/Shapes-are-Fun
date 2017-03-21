@@ -33,6 +33,10 @@ public class FunWithShapes {
         double pyheight = 8.9;
         System.out.println("Volume of the Pyramid is: " + new VolumeOfPyramid(pybase, pyheight).getVolume());
         
+        double r = 5;
+        double volume = calcVolSphere(r);
+        System.out.println(volume);
+        
         System.out.println("Area of a circle test cases:");
           
  +        if(circleArea(1) == -1) {
