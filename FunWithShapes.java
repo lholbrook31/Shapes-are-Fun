@@ -19,6 +19,10 @@ public class FunWithShapes {
         double triBase = 5;
         double triHeight = 5.4;
         System.out.println(new AreaOfTriangle().getArea(triBase, triHeight));
+        
+        double pybase = 5;
+        double pyheight = 8.9;
+        System.out.println(new VolumeOfPyramid(pybase, pyheight).getVolume());
     }
     
 }
