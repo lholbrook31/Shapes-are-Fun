@@ -12,7 +12,11 @@ package funwithshapes;
 public class AreaOfCircle {
     
     double circleArea(double radius) {
+        if(radius < 0) {
+            return -1;
+        }else {
         return Math.PI * radius;
+        }
     }
     
     
