@@ -10,5 +10,8 @@ package funwithshapes;
  * @author Logan
  */
 public class VolumeOfCube {
-    
+    public double calcVolume(double sideLength)
+    {
+        return sideLength^3;
+    }
 }
