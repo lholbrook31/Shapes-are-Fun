@@ -20,7 +20,7 @@ public class FunWithShapes {
         system.out.print("Enter in the Length and width of the square so we can calculate the area\n");
         length = system.in.read();
         width = system.in.read();
-        double area = calcArea(length,width);
+        double area = (new AreaOfSquare.calcArea(length,width));
         system.out.print("The area of the square with length " + length + " and " + width + " is " + area + ".\n");
         
         double triBase = 5;
