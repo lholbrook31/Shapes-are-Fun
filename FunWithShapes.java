@@ -30,6 +30,34 @@ public class FunWithShapes {
         double pybase = 5;
         double pyheight = 8.9;
         System.out.println(new VolumeOfPyramid(pybase, pyheight).getVolume());
+        
+        System.out.println("Area of a circle test cases:");
+          
+ +        if(circleArea(1) == -1) {
+ +            System.out.println("Test case 1 failed");
+ +        } else {
+ +            System.out.println("Test case 1 passed");
+ +        }
+ +          if(circleArea(-1) == -1) {
+ +            System.out.println("Test case -1 success");
+ +        }
+ +        else {
+ +            System.out.println("Test case -1 failed");
+ +        }
+ +          if(circleArea(0) == -1) {
+ +            System.out.println("Test case 0 failed");
+ +        }
+ +        else {
+ +            System.out.println("Test case 0 passed");
+ +        }
+ +          if(circleArea(5.5) == -1) {
+ +            System.out.println("Test case 5.5 failed");
+ +        }
+ +        else {
+ +            System.out.println("Test case 5.5 passed");
+ +        }
+ +      
+ +    }
     }
     
 }
