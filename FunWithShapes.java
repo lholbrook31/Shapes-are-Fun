@@ -17,6 +17,7 @@ public class FunWithShapes {
     public static void main(String[] args) {
         // TODO code application logic here
         double length, width;
+        AreaOfSquare aos = new AreaOfSquare();
         system.out.print("Enter in the Length and width of the square so we can calculate the area\n");
         length = system.in.read();
         width = system.in.read();
