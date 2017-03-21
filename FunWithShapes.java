@@ -27,9 +27,11 @@ public class FunWithShapes {
         double triHeight = 5.4;
         System.out.println(new AreaOfTriangle().getArea(triBase, triHeight));
         
+        System.out.println("Volume of the cube is: " + new VolumeOfCube().calcValue(3));
+        
         double pybase = 5;
         double pyheight = 8.9;
-        System.out.println(new VolumeOfPyramid(pybase, pyheight).getVolume());
+        System.out.println("Volume of the Pyramid is: " + new VolumeOfPyramid(pybase, pyheight).getVolume());
         
         System.out.println("Area of a circle test cases:");
           
