@@ -23,7 +23,33 @@ public class FunWithShapes {
         double area = calcArea(length,width);
         system.out.print("The area of the square with length " + length + " and " + width + " is " + area + ".\n");
         
+        System.out.println("Area of a circle test cases:");
         
+        if(circleArea(1) == -1) {
+            System.out.println("Test case 1 failed");
+        } else {
+            System.out.println("Test case 1 passed");
+        }
+          if(circleArea(-1) == -1) {
+            System.out.println("Test case -1 success");
+        }
+        else {
+            System.out.println("Test case -1 failed");
+        }
+          if(circleArea(0) == -1) {
+            System.out.println("Test case 0 failed");
+        }
+        else {
+            System.out.println("Test case 0 passed");
+        }
+          if(circleArea(5.5) == -1) {
+            System.out.println("Test case 5.5 failed");
+        }
+        else {
+            System.out.println("Test case 5.5 passed");
+        }
+      
+    }
     }
     
 }
